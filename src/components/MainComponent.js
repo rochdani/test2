@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import {Navbar,NavbarBrand} from 'reactstrap';
 import Menu from './components/MenuComponent';
 import {Dishes} from './shared/dishes';
 
 
 
-class App extends Component{
+class MainComponent extends Component{
 
   constructor(props){
     super(props);
@@ -31,5 +30,5 @@ dishes:Dishes
 }
 }
 
-export default App;
+export default MainComponent;
 
